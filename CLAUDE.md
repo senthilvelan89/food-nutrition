@@ -1,6 +1,6 @@
 # food-nutrition — project prompts
 
-This is the project-level prompt file for Cursor Agent. It is loaded automatically for work in this repository.
+This is the project-level prompt file (`CLAUDE.md`). Cursor and Claude Code load it automatically for work in this repository.
 
 Use it as standing context, and treat the **Common prompts** section as reusable task instructions. Paste a prompt into chat, or say which one to follow (for example, “follow *Add a food*”).
 
@@ -90,7 +90,7 @@ Do not reshape numbers beyond unit conversion. Add fixture-based tests for a few
 ```text
 Scaffold the smallest useful food-nutrition slice: search or select a food, show sourced nutrition facts, and convert between serving sizes.
 
-Keep the architecture simple and testable. Record the stack, data source, and run/test commands in AGENTS.md when you add them.
+Keep the architecture simple and testable. Record the stack, data source, and run/test commands in CLAUDE.md when you add them.
 
 Do not add diet plans, trackers, or accounts until the nutrition core works.
 ```
