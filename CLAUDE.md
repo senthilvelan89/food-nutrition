@@ -2,7 +2,7 @@
 
 This is the project-level prompt file (`CLAUDE.md`). Cursor and Claude Code load it automatically for work in this repository.
 
-Use it as standing context, and treat the **Common prompts** section as reusable task instructions. Paste a prompt into chat, or say which one to follow (for example, “follow *Log today’s food*”).
+Use it as standing context. For a daily food log, invoke the project skill **`/calc-nutrition`** and paste foods with amounts. The skill lives at `.cursor/skills/calc-nutrition/`. Other reusable prompts are in **Common prompts** below.
 
 ## Project
 
@@ -127,14 +127,14 @@ Until then:
 
 ## Common prompts
 
-### Log today’s food
+### Log today’s food (`/calc-nutrition`)
+
+In Cursor, type `/calc-nutrition` and paste the day’s foods and amounts. That skill looks up USDA values, scales portions, and scores protein, fibre, and calories.
 
 ```text
-I will list the foods I ate today (and amounts). Look each one up in USDA FoodData Central, scale to the amount I ate, and total calories, protein, fibre, and free/added sugars.
+/calc-nutrition
 
-Compare the day to my targets: hold ~75 kg at 175 cm (BMI 24.5); protein 80–90 g; fibre 25 g; energy around 2,200 kcal (2,000–2,400 working range); free/added sugars prefer ≤ 25–36 g and always under 10% of that day’s calories.
-
-Use a table with source/FDC ID per food. Mark missing nutrients as unavailable. Do not invent numbers. End with remaining amounts and a short on-track verdict.
+I ate: ... (food and quantity for each item)
 ```
 
 ### Add a food
