@@ -62,6 +62,48 @@ Use a table:
 
 Then a short verdict: on track / short fibre / short protein / over energy / over sugar.
 
+## Usual daily intake
+
+Use this as the default day when the user does not list a different menu. Night is **either** 3 dosa **or** 4 chapati with gravy, not both.
+
+| When | Foods |
+| --- | --- |
+| Morning | 125 ml milk + 2 Tbsp nut powder (almond, walnut, pista) + 1.5 tsp sugar |
+| Next | 2–3 tsp Greek yogurt + 2 spoons soaked chia gel + 25 g groundnut + 5 g walnut |
+| Mid | 1 medium banana + 1 medium orange |
+| Lunch | 1 cup rice + 2 vegetables (150 g each) + some chips as a side |
+| Afternoon | 50 g dhal |
+| Later | bread sandwich with 3 tsp honey |
+| Evening | 100 ml tea + 1 tsp sugar + 20 almonds (not soaked) |
+| Night | 3 dosa **or** 4 chapati, with gravy |
+
+### Assumptions when amounts are missing
+
+- Milk: whole, 125 ml ≈ 129 g (FDC 171265).
+- Nut powder: 2 Tbsp ≈ 16 g, equal parts almond / walnut / pistachio.
+- 1 tsp sugar = 4.2 g (FDC 169655). Greek yogurt 2.5 tsp ≈ 12.5 g plain nonfat (FDC 170894) — a very small amount; confirm if they meant tablespoons.
+- Chia gel: 2 Tbsp of prepared gel ≈ 3 g dry chia at ~1:9 soak (FDC 170554). If they soaked 2 Tbsp **seeds**, use ~20 g dry instead.
+- Rice: 1 cup cooked white long-grain = 158 g (FDC 168878).
+- Vegetables unnamed: 300 g mixed vegetables, cooked (FDC 2710015).
+- Chips amount not given: 20 g potato chips as a small side (FDC 170649) — mark estimated.
+- Sandwich: 2 slices white bread (~56 g) + 3 tsp honey = 21 g (FDC 169640). Honey counts as free sugar.
+- 20 almonds ≈ 24.7 g (FDC 170567; USDA ~23 almonds / oz).
+- Dhal 50 g: treat as **uncooked** → about 125 g cooked lentils (FDC 172421). If it was cooked weight, protein and fibre drop.
+- Dosa: 3 × medium 80 g (FDC 2708347). Chapati: prefer homemade ~40 g each; USDA commercial piece is 68 g (FDC 171844).
+- Gravy amount not given: 150 g mixed vegetables, cooked, as a katori of sabzi/gravy — oil in gravy is unknown.
+- Banana medium 118 g (FDC 173944); orange medium 131 g edible (FDC 169097). Fruit sugars are **not** free sugars.
+
+### Typical scored day (USDA-scaled)
+
+| Night choice | kcal | protein_g | fibre_g | free/added sugars_g |
+| --- | --- | --- | --- | --- |
+| 3 medium dosa + gravy | ~2,280 | ~72 | ~51 | ~28 |
+| 4 homemade chapati (~40 g) + gravy | ~2,250 | ~76 | ~55 | ~28 |
+| 4 USDA commercial chapati (68 g) + gravy | ~2,590 | ~89 | ~60 | ~28 |
+| Target | ~2,200 | 80–90 | 25 | prefer ≤ 25–36 |
+
+Usual pattern: **fibre is met**, **free sugar is in the preferred band** (honey is most of it), **protein is short** on dosa / homemade-chapati nights, **calories sit near maintenance** unless the chapatis are large.
+
 ## Standing instructions
 
 - Prefer small, focused changes. Match existing style once a stack exists.
